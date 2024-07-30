@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function openWindow(){
+            var a= window.open("","",'height=300','width=300');
+            a.document.write("<h1>lalalalalalallalalala</h1>");
+            
+        }
+        function closeWindow(){
+            a.close();
+        }
+    </script>
+    
+</head>
+<body>
+    <input type="button" value="Show New Window" onclick="openWindow()"/>
+    <input type="button" value="Close Window" onclick="closeWindow()"/>
+</body>
+</html>
